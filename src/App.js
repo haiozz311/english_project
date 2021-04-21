@@ -1,7 +1,5 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Section from './components/Section/Section';
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch } from "react-router-dom";
 import UserRoute from './components/UserRoute/UserRoute';
 import Home from './components/Section/Home';
 
