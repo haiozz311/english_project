@@ -6,12 +6,9 @@ import './mediaQuery.css'
 
 export default function Header() {
   return (
-    <div>
-      <header>
-        <Logo />
-        <Navbar />
-      </header>
-
-    </div>
+    <header className="header">
+      <Logo />
+      <Navbar />
+    </header>
   )
 }
