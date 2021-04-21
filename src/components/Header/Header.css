@@ -28,7 +28,8 @@ header ul{
 }
 header ul li{
   display: inline-block;
-  transition: all 
+  transition: all;
+  vertical-align: middle;
 }
 header ul li a{
   text-decoration: none;

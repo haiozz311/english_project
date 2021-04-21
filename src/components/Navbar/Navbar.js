@@ -24,7 +24,7 @@ const useStyles = makeStyles({
 export default function Navbar() {
   const classes = useStyles();
   const [toggle, setToggle] = useState(false);
-  const [infor, setInfor] = useState(true);
+  const infor = true
   const handleToggle = () => {
     setToggle(!toggle)
   }
