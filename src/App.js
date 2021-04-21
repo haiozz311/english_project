@@ -1,10 +1,13 @@
-// import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Section from './components/Section/Section';
+
 
 function App() {
   return (
     <div className="App">
-      <div>hai test</div>
+      <Header />
+      <Section />
     </div>
   );
 }
